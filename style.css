@@ -15,7 +15,7 @@ section {
   height: 100vh;
   color: aliceblue;
   font-size: 40px;
-  
+  /* position: relative; */
 }
 
 footer {
@@ -135,6 +135,7 @@ p {
   display: flex;
   justify-content: space-around;
   padding: 80px;
+  /* position: relative; */
 }
 
 .sub-section-alternative {
@@ -142,17 +143,19 @@ p {
   flex-direction: column;
   text-align: center;
   padding: 80px;
+  /* position: relative; */
 }
 
 .headshot {
   width: 300px;
   border-radius: 50%;
+  /* position: relative; */
 }
 
 .headshot-container {
   display: flex;
   align-items: center;
-
+  /* position: relative; */
 }
 
 .project-card {
@@ -162,7 +165,7 @@ p {
   border-radius: 10px;
   margin: 10px;
   transition: transform 0.5s;
-
+  position: relative;
 }
 
 .project-container {
@@ -256,7 +259,7 @@ display: none;
 
 }
 
-.Nikola-Tesla-tribute-page-photo {
+.salamandra-project {
   height: 200px;
   margin-top: 20px;
   border-radius: 20px;
@@ -318,4 +321,3 @@ display: none;
     border-radius: 5px;
   }
 
- 
